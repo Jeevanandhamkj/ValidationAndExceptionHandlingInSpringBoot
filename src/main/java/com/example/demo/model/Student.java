@@ -75,5 +75,11 @@ public class Student {
 	public Student() {
 		// TODO Auto-generated constructor stub
 	}
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", age=" + age + ", email=" + email + ", mobile=" + mobile
+				+ "]";
+	}
+	
 
 }
