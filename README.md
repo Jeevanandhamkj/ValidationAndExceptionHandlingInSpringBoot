@@ -11,3 +11,8 @@ A RESTful API for managing student records with full CRUD operations, validation
 - `DELETE /student/del/{id}` – Delete student
 - `GET /actuator/health` – App health check
 - `GET /actuator/info` – App info
+- 'GET /student/sort/age/dec -Sort by age descending
+- 'GET /student/sort/age/asc-Sort by age ascending
+- 'GET /student/sort/name/asc--Sort by name ascending
+- 'GET /student/sort/name/dec--Sort by name descending
+- 'GET /student/p?page=0&size=2 -pagination 
